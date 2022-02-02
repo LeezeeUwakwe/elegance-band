@@ -70,7 +70,7 @@ li {
 }
 .plant-image img {
   margin-left: 70px;
-  margin-top: -28px;
+  margin-top: 16px;
 }
 .support {
   width: 18%;
@@ -389,6 +389,9 @@ input {
 .content img {
   width: 24%;
 }
+.ctainer {
+  padding-bottom: 10px;
+}
 .content[aria-hidden="false"] {
   max-height: var(--ctainerHeight, 1000px);
 }
@@ -495,7 +498,7 @@ input {
   width: 22%;
   position: absolute;
   right: 75px;
-  top: 23px;
+  top: 41px;
 }
 .character {
   margin-left: -46px;
