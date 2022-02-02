@@ -10,27 +10,57 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"  />
   <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-  <link rel="stylesheet" href="dist/output.css">
   <link rel="stylesheet" href="public/style.css">
   <link rel="stylesheet" href="custom.css">
+  <link rel="stylesheet" href="dist/output.css">
+
 </head>
 <body>
-  <div class="container">
+  <div class="products-container">
     <header class="flex justify-between">
+      <div class="header-wrapper flex justify-between items-center">
       <div class="logo">
         <img src="./assets/images/Layer_x0020_1.png" alt="">
       </div>
-      <nav class="hidden md:flex space-x-9">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About us</a></li>
-        <li><a href="products.html">Products & Services</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html" class="btn-primary btn-contact">Contact Us</a></li>
-      </nav>
-  </div> 
+      <div class="hamburger">
+        <img  src="./assets/images/download (5).png" alt="">
+      </div>
+    </div>
+
+
+    <div class="nav">
+      <ul class="desktop-nav hidden md:flex space-x-8">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About us</a></li>
+      <li><a href="products.html">Products & Services</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html" class="btn-primary btn-contact">Contact Us</a></li>
+    </ul>
+   </div>
+    </header>
+  </div>
+
+  <div class="nav-mob hidden ">
+    <div class="products-container">
+     <ul class="flex">
+       <li><a href="index.html">Home</a></li>
+       <li><a href="about.html">About us</a></li>
+       <li><a href="products.html">Products & Services</a></li>
+       <li><a href="gallery.html">Gallery</a></li>
+        <div class="contactMob-wrapper">
+       <li><a href="#" class="btn-primary btn-contact contact-mob">Contact Us</a></li>
+     </div>
+     </ul>
+    </div>
+     <div class="close-btn">
+       <img class="" src="./assets/images/close.png" alt="">
+     </div>
+   </div>
+
+
   <section>
-    <div class="container">
-      <div class="wrapper">
+    <div class="products-container">
+      <div class="">
 
         <div class="ctainer">
           <div class="trigger">
@@ -122,20 +152,17 @@
           </div>
         </div>
 
-        
-        
-       
-
       </div>
     </div>
+
   </section>
 
 
 
 
 
-  <footer>
-    <div class="container">
+  <footer class="pb-6">
+    <div class="products-container">
       <div class="flex justify-between">
       <div class="footer-contents">
         <li><a href="#">Home</a></li>
@@ -157,9 +184,8 @@
       </div>
     </div>
     </div>
-    <p class="text-xs text-center mt-8 py-6 font-semibold">&#169;	 2021 Elegance inspired. All rights reserved</p>
+    <p class="text-xs text-center mt-8 py-6 font-semibold">&#169;	2021 Elegance inspired. All rights reserved</p>
   </footer>
-
   <script src="app.js"></script>
 </body>
 </html>

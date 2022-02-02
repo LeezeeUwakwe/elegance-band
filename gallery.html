@@ -17,17 +17,46 @@
 <body>
   <div class="container">
     <header class="flex justify-between">
+      <div class="header-wrapper flex justify-between items-center">
       <div class="logo">
         <img src="./assets/images/Layer_x0020_1.png" alt="">
       </div>
-      <nav class="hidden md:flex space-x-9">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About us</a></li>
-        <li><a href="products.html">Products & Services</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html" class="btn-primary btn-contact">Contact Us</a></li>
-      </nav>
-  </div> 
+      <div class="hamburger">
+        <img  src="./assets/images/download (5).png" alt="">
+      </div>
+    </div>
+
+
+    <div class="nav">
+      <ul class="desktop-nav hidden md:flex space-x-8">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About us</a></li>
+      <li><a href="products.html">Products & Services</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html" class="btn-primary btn-contact">Contact Us</a></li>
+    </ul>
+   </div>
+ 
+    </header>
+  </div>
+
+  <div class="nav-mob hidden relative">
+    <div class="container">
+     <ul class="flex">
+       <li><a href="index.html">Home</a></li>
+       <li><a href="about.html">About us</a></li>
+       <li><a href="products.html">Products & Services</a></li>
+       <li><a href="gallery.html">Gallery</a></li>
+        <div class="contactMob-wrapper">
+       <li><a href="#" class="btn-primary btn-contact contact-mob">Contact Us</a></li>
+     </div>
+     </ul>
+    </div>
+     <div class="close-btn">
+       <img class="" src="./assets/images/close.png" alt="">
+     </div>
+   </div>
+
   <section>
     <div class="our-works">
       <h2 class="work-title text-black text-2xl font-medium">Our Works</h2>
@@ -131,34 +160,32 @@
 
 
 
-  <footer class="mt-8">
-    <div class="container">
-      <div class="flex justify-between">
-      <div class="footer-contents">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Products & Services</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#" class="">Contact Us</a></li>
-      </div>
+    <footer class="pb-6 mt-8">
+      <div class="container">
+        <div class="flex justify-between">
+        <div class="footer-contents">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Products & Services</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#" class="">Contact Us</a></li>
+        </div>
 
-    
-
-      <div class="media-wrapper">
-        <img class="footer-logo" src="./assets/images/Layer_x0020_1.png" alt="">
-        <div class="media-icons flex justify-between">
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-youtube"></i>
-          <i class="fab fa-linkedin-in"></i>
+        <div class="media-wrapper">
+          <img class="footer-logo" src="./assets/images/Layer_x0020_1.png" alt="">
+          <div class="media-icons flex justify-between">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-linkedin-in"></i>
+          </div>
         </div>
       </div>
-    </div>
-    </div>
-    <p class="text-xs text-center mt-8 py-6 font-semibold">&#169;	 2021 Elegance inspired. All rights reserved</p>
-  </footer>
+      </div>
+      <p class="text-xs text-center mt-8 py-6 font-semibold">&#169;	2021 Elegance inspired. All rights reserved</p>
+    </footer>
  
-  
+  <script src="app.js"></script>
 </body>
 </html>

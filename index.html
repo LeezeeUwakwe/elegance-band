@@ -21,8 +21,7 @@
 <body>
   <div class="container">
     <header class="flex justify-between">
-
-      <div class="flex justify-between items-center w-full">
+      <div class="header-wrapper flex justify-between items-center">
       <div class="logo">
         <img src="./assets/images/Layer_x0020_1.png" alt="">
       </div>
@@ -31,37 +30,42 @@
       </div>
     </div>
 
-      <div class="nav hidden md:flex">
-        <ul class="flex space-x-9">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About us</a></li>
-        <li><a href="products.html">Products & Services</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="#" class="btn-primary btn-contact">Contact Us</a></li>
-      </ul>
-      </div>
+
+    <div class="nav">
+      <ul class="desktop-nav hidden md:flex space-x-8">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About us</a></li>
+      <li><a href="products.html">Products & Services</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html" class="btn-primary btn-contact">Contact Us</a></li>
+    </ul>
+   </div>
+ 
+    </header>
+  </div>
+
+
+
+
 
       <div class="nav-mob hidden relative">
-       <div>
+       <div class="container">
         <ul class="flex">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About us</a></li>
           <li><a href="products.html">Products & Services</a></li>
           <li><a href="gallery.html">Gallery</a></li>
-        <div class="contactMob-wrapper">
-          <li><a href="#" class="btn-primary btn-contact contact-mob">Contact Us</a></li>
+           <div class="contactMob-wrapper">
+          <li><a href="contact.html" class="btn-primary btn-contact contact-mob">Contact Us</a></li>
         </div>
         </ul>
        </div>
-        
         <div class="close-btn">
           <img class="" src="./assets/images/close.png" alt="">
         </div>
-       
       </div>
 
-    </header>
-   </div> 
+    
    
     <section class="branding">
       <div class="branding-wrapper">
@@ -74,7 +78,7 @@
           <a href="#" class="btn-primary btn__contact">Contact Us</a>
         </div>
 
-        <!-- <div class="branding-images flex justify-between p-10 relative">
+        <div class="branding-images flex justify-between p-10 relative">
           <div class="plant-image -mt-7">
             <img class="" src="./assets/images/freepik--Plant--inject-2.png" alt="">
           </div>
@@ -83,8 +87,7 @@
             <img class="character w-full" src="./assets/images/freepik--Character--inject-2.png" alt="">
             <img class="trash-bin" src="./assets/images/freepik--trash-bin--inject-2.png" alt="">
           </div>
-        </div> -->
-
+        </div>
       </div>
     </section>
      <section class="mission">
@@ -122,9 +125,9 @@
       <div class="container">
         <div class="about-wrapper">
           <div class="about-text text-center">
-            <h2 class="text-2xl  font-bold">About Us</h2>
-            <div class="about-paragraph">
-              <p class="text-sm font-medium mt-8">Elegance Inspired limited is a BRANDING & ICT based company. It was founded as a consulting- oriented value-added manufacturer; to fill the market’s need for personal Computers, and is emphasizing the service and support to differentiate itself from a more price-oriented national chain. Elegance inspired Limited seeks to fulfil these needs and become the leader in business Information Communication Technology in northern Nigeria. We provide both computer products and services to make them useful to small, medium, and large businesses. We are especially focused on providing hardware and software network systems, and services to small, medium and large institutions, especially Educational Institutions. 
+            <h2 class=" about-title text-2xl  font-bold">About Us</h2>
+            <div class="">
+              <p class="a-paragragh text-sm font-medium mt-8">Elegance Inspired limited is a BRANDING & ICT based company. It was founded as a consulting- oriented value-added manufacturer; to fill the market’s need for personal Computers, and is emphasizing the service and support to differentiate itself from a more price-oriented national chain. Elegance inspired Limited seeks to fulfil these needs and become the leader in business Information Communication Technology in northern Nigeria. We provide both computer products and services to make them useful to small, medium, and large businesses. We are especially focused on providing hardware and software network systems, and services to small, medium and large institutions, especially Educational Institutions. 
               </p>
               <p class="mt-8 text-sm font-medium">Our number one desire is to have you take part through patronage in our innovative venture as we serve you in the above mentioned capacities.
               </p>
@@ -140,7 +143,7 @@
     <section class="products">
       <div class="container">
         <div class="product-wrapper">
-          <h2 class="product-text text-xl md:text-2xl font-bold text-center mb-10">Products and Services</h2>
+          <h2 class="product-text text-2xl font-bold text-center mb-10">Products and Services</h2>
           <div class="products-services mt-10">
             
             <div class="card">
@@ -242,10 +245,10 @@
         <div class="reserve-wrapper">
           <div class="reserve-content">
             <div class="reserve-text">
-              <h2 class="text-xl md:text-2xl font-bold text-white text-center">Want to reserve a Spot</h2>
-              <p class="reserve-paragraph  text-white text-center font-semibold mt-2 md:mt-5">Our number one desire is to have you take part through patronage in our innovative venture as we serve you in the above mentioned capacities.</p>  
+              <h2 class="reserve-title text-xl md:text-2xl font-bold text-white text-center">Want to reserve a Spot</h2>
+              <p class="reserve-paragraph text-white text-center font-semibold mt-2 md:mt-5">Our number one desire is to have you take part through patronage in our innovative venture as we serve you in the above mentioned capacities.</p>  
             </div>
-            <div class="btn-reserve mt-3 md:mt-8">
+            <div class="btn-reserve">
               <a class="btn-primary btn--contact" href="#">Contact Us</a>
             </div>
           </div>
