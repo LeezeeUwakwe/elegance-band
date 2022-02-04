@@ -10,7 +10,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"  />
   <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-
   <link rel="stylesheet" href="dist/output.css">
   <link rel="stylesheet" href="public/style.css">
   <link rel="stylesheet" href="custom.css">
@@ -19,8 +18,9 @@
 
 </head>
 <body>
-  <div class="container">
-    <header class="flex justify-between">
+  <div class="container relative z-10">
+    <!-- <img class="ellipse-one" src="./assets/images/Ellipse 11.png" alt=""> -->
+    <header class="flex justify-between z-20">
       <div class="header-wrapper flex justify-between items-center">
       <div class="logo">
         <img src="./assets/images/Layer_x0020_1.png" alt="">
@@ -48,7 +48,7 @@
 
 
 
-      <div class="nav-mob hidden relative">
+      <div class="nav-mob hidden relative overflow-hidden">
        <div class="container">
         <ul class="flex">
           <li><a href="index.html">Home</a></li>
@@ -67,16 +67,21 @@
 
     
    
-    <section class="branding">
+    <section class="branding relative">
       <div class="branding-wrapper">
         <div class="branding-text text-center">
-          <p class="branding-paragraph text-sm mb-5 font-semibold">No.1 Branding agency</p>
+          <div class="flex justify-center items-center mb-5">
+            <img class="symbol-e" src="./assets/images/Group 17 (2).png" alt="">
+            <p class="branding-paragraph text-xs font-semibold">No.1 Branding agency</p>
+          </div>
           <h1 class="branding-title text-4xl font-bold leading-normal" >Let's give your brand an identity.</h1>
         </div>
         <div class="branding-btn flex space-x-7 justify-center items-center mt-8">
           <a href="#" class="btn-primary btn-started">Get Started</a>
           <a href="#" class="btn-primary btn__contact">Contact Us</a>
         </div>
+
+        <img class="ellipse-two" src="./assets/images/Ellipse 2.png" alt="">
 
         <div class="branding-images flex justify-between p-10 relative">
           <div class="plant-image -mt-7">
@@ -87,9 +92,11 @@
             <img class="character w-full" src="./assets/images/freepik--Character--inject-2.png" alt="">
             <img class="trash-bin" src="./assets/images/freepik--trash-bin--inject-2.png" alt="">
           </div>
+          <img class="ellipse-three" src="./assets/images/Ellipse 11.png" alt="">
         </div>
       </div>
     </section>
+
      <section class="mission">
       <div class="container">
         <div class="mission-wrapper flex justify-between ">
@@ -97,8 +104,8 @@
             <img class="w-full md:w-1/5" src="./assets/images/Mask Group 1.png" alt="">
           </div>
           <div class="mission-text mt-8">
-            <h2 class="mission-title text-2xl font-bold">Our Mission</h2>
-            <p class="mission-paragraph text-sm font-medium mt-5">ELEGANCE INSPIRED LIMITED serves its clients as a trusted ally, providing them with the loyalty of a business partner and the economics of an outside vendor. To provide exceptional service and to follow through on our promises, we strive to deliver individualized solutions to all client's ICT needs and add value to our client's businesses. We are also focused on providing great service and forming lasting relationships with our clients. We will be judged not only by our words, but by our actions.</p>
+            <h2 class="mission-title font-bold">Our Mission</h2>
+            <p class="mission-paragraph font-medium mt-5">ELEGANCE INSPIRED LIMITED serves its clients as a trusted ally, providing them with the loyalty of a business partner and the economics of an outside vendor. To provide exceptional service and to follow through on our promises, we strive to deliver individualized solutions to all client's ICT needs and add value to our client's businesses. We are also focused on providing great service and forming lasting relationships with our clients. We will be judged not only by our words, but by our actions.</p>
           </div>
         </div>
       </div>
@@ -106,12 +113,13 @@
 
     
 
-    <section class="vision">
+    <section class="vision relative">
       <div class="container">
+        <img class="ellipse-four" src="./assets/images/Ellipse 18.png" alt="">
         <div class="vision-wrapper flex justify-between">
-          <div class="vision-text mt-8">
+          <div class="vision-text mt-14">
             <h2 class="vision-title text-2xl font-bold">Our Vision</h2>
-            <p class="vision-paragraph text-sm font-medium mt-5">ELEGANCE INSPIRED LIMITED endeavors to become recognized as the benchmark for outstanding service, not just in the branding and ICT  industry but across all industries. We pride ourselves on bringing results that count in everything that we set out to do and we are constantly striving for successful outcomes in all areas of our business.</p>
+            <p class="vision-paragraph font-medium mt-5">ELEGANCE INSPIRED LIMITED endeavors to become recognized as the benchmark for outstanding service, not just in the branding and ICT  industry but across all industries. We pride ourselves on bringing results that count in everything that we set out to do and we are constantly striving for successful outcomes in all areas of our business.</p>
           </div>
           <div class="vision-image">
             <img src="./assets/images/Mask Group 2.png" alt="">
@@ -126,10 +134,10 @@
         <div class="about-wrapper">
           <div class="about-text text-center">
             <h2 class=" about-title text-2xl  font-bold">About Us</h2>
-            <div class="">
-              <p class="a-paragragh text-sm font-medium mt-8">Elegance Inspired limited is a BRANDING & ICT based company. It was founded as a consulting- oriented value-added manufacturer; to fill the market’s need for personal Computers, and is emphasizing the service and support to differentiate itself from a more price-oriented national chain. Elegance inspired Limited seeks to fulfil these needs and become the leader in business Information Communication Technology in northern Nigeria. We provide both computer products and services to make them useful to small, medium, and large businesses. We are especially focused on providing hardware and software network systems, and services to small, medium and large institutions, especially Educational Institutions. 
+            <div class="text-wrapper">
+              <p class="font-medium mt-8">Elegance Inspired limited is a BRANDING & ICT based company. It was founded as a consulting- oriented value-added manufacturer; to fill the market’s need for personal Computers, and is emphasizing the service and support to differentiate itself from a more price-oriented national chain. Elegance inspired Limited seeks to fulfil these needs and become the leader in business Information Communication Technology in northern Nigeria. We provide both computer products and services to make them useful to small, medium, and large businesses. We are especially focused on providing hardware and software network systems, and services to small, medium and large institutions, especially Educational Institutions. 
               </p>
-              <p class="mt-8 text-sm font-medium">Our number one desire is to have you take part through patronage in our innovative venture as we serve you in the above mentioned capacities.
+              <p class="mt-8 font-medium">Our number one desire is to have you take part through patronage in our innovative venture as we serve you in the above mentioned capacities.
               </p>
             </div>
           </div>
@@ -140,16 +148,17 @@
       </div>
     </section>
    
-    <section class="products">
+    <section class="products relative">
       <div class="container">
+        <img class="ellipse-five" src="./assets/images/Ellipse 11.png" alt="">
         <div class="product-wrapper">
           <h2 class="product-text text-2xl font-bold text-center mb-10">Products and Services</h2>
           <div class="products-services mt-10">
             
             <div class="card">
               <img src="./assets/images/Ellipse 18.png" alt="">
-              <h3 class="text-xs md:text-lg font-semibold">Branding</h3>
-              <p class="card-paragraph font-medium">Our number one desire is to have 
+              <h3 class="card-title text-xs md:text-lg font-semibold">Branding</h3>
+              <p class="card-paragraph font-semibold">Our number one desire is to have 
                 you take part through patronage in 
                 our innovative venture as we serve 
                 you in the above mentioned 
@@ -159,8 +168,8 @@
 
             <div class="card">
               <img src="./assets/images/Ellipse 18.png" alt="">
-              <h3 class="text-xs md:text-lg font-semibold">UI/UX</h3>
-              <p class="card-paragraph font-medium">Our number one desire is to have 
+              <h3 class="card-title text-xs md:text-lg font-semibold">UI/UX</h3>
+              <p class="card-paragraph font-semibold">Our number one desire is to have 
                 you take part through patronage in 
                 our innovative venture as we serve 
                 you in the above mentioned 
@@ -170,8 +179,8 @@
 
             <div class="card">
               <img src="./assets/images/Ellipse 18.png" alt="">
-              <h3 class="text-xs md:text-lg font-semibold">3D Signboard</h3>
-              <p class="card-paragraph font-medium">Our number one desire is to have 
+              <h3 class="card-title text-xs md:text-lg font-semibold">3D Signboard</h3>
+              <p class="card-paragraph font-semibold">Our number one desire is to have 
                 you take part through patronage in 
                 our innovative venture as we serve 
                 you in the above mentioned 
@@ -181,8 +190,8 @@
 
             <div class="card">
               <img src="./assets/images/Ellipse 18.png" alt="">
-              <h3 class="text-xs md:text-lg font-semibold">Product Design</h3>
-              <p class="card-paragraph font-medium">Our number one desire is to have 
+              <h3 class="card-title text-xs md:text-lg font-semibold">Product design</h3>
+              <p class="card-paragraph font-semibold">Our number one desire is to have 
                 you take part through patronage in 
                 our innovative venture as we serve 
                 you in the above mentioned 
@@ -192,8 +201,8 @@
 
             <div class="card">
               <img src="./assets/images/Ellipse 18.png" alt="">
-              <h3 class="text-xs md:text-lg font-semibold">Tech</h3>
-              <p class="card-paragraph font-medium">Our number one desire is to have 
+              <h3 class="card-title text-xs md:text-lg font-semibold">Tech</h3>
+              <p class="card-paragraph font-semibold">Our number one desire is to have 
                 you take part through patronage in 
                 our innovative venture as we serve 
                 you in the above mentioned 
@@ -203,8 +212,8 @@
 
             <div class="card">
               <img src="./assets/images/Ellipse 18.png" alt="">
-              <h3 class="text-xs md:text-lg font-semibold">Souvenirs</h3>
-              <p class="card-paragraph font-medium">Our number one desire is to have 
+              <h3 class="card-title text-xs md:text-lg font-semibold">Souvenirs</h3>
+              <p class="card-paragraph font-semibold">Our number one desire is to have 
                 you take part through patronage in 
                 our innovative venture as we serve 
                 you in the above mentioned 
@@ -214,8 +223,8 @@
 
             <div class="card">
               <img src="./assets/images/Ellipse 18.png" alt="">
-              <h3 class="text-xs md:text-lg font-semibold">Printing</h3>
-              <p class="card-paragraph font-medium">Our number one desire is to have 
+              <h3 class="card-title text-xs md:text-lg font-semibold">Printing</h3>
+              <p class="card-paragraph font-semibold">Our number one desire is to have 
                 you take part through patronage in 
                 our innovative venture as we serve 
                 you in the above mentioned 
@@ -225,8 +234,8 @@
 
             <div class="card">
               <img src="./assets/images/Ellipse 18.png" alt="">
-              <h3 class="text-xs md:text-lg font-semibold">Product Design</h3>
-              <p class="card-paragraph font-medium">Our number one desire is to have 
+              <h3 class="card-title text-xs md:text-lg font-semibold">Product design</h3>
+              <p class="card-paragraph font-semibold">Our number one desire is to have 
                 you take part through patronage in 
                 our innovative venture as we serve 
                 you in the above mentioned 
@@ -280,7 +289,7 @@
         </div>
       </div>
       </div>
-      <p class="text-xs text-center mt-8 py-6 font-semibold">&#169;	2021 Elegance inspired. All rights reserved</p>
+      <p class="copyright text-center mt-8 py-6 font-semibold">&#169;	2021 Elegance inspired. All rights reserved</p>
     </footer>
 
 
