@@ -253,27 +253,27 @@ footer {
   font-size: 14px;
 }
 .solution-images {
-  width: 70%;
+  width: 90%;
 }
 .img-1 {
-  width: 25%;
+  width: 27%;
   height: 27%;
 }
 .img-3 {
-  width: 22%;
-  height: 10%;
+  width: 25%;
+  height: 40vh;
 }
 .img-2 {
-  width: 37%;
-  height: 50%;
+  width: 40%;
+  height: 50vh
 }
-.solution-images:nth-child(1) {
+.solution-images img:nth-child(2) {
   position: relative;
-  top: 4rem;
+  top: 0;
 }
-.solution-images:nth-child(2) {
+.solution-images img:nth-child(3) {
   position: relative;
-  top: 2rem;
+  top: -3rem;
 }
 .btn-reserve {
   margin-top: 30px;
@@ -316,6 +316,7 @@ footer {
   border-radius: 7px;
 }
 .card-name {
+
   font-size: 20px;
 }
 
@@ -597,7 +598,7 @@ cursor: pointer;
     background-color: #fff;
     top: 0;
     padding-top: 20px;
-    z-index: 20;
+    z-index: 22;
 }
 .nav-mob ul {
   flex-direction: column;
@@ -788,18 +789,28 @@ cursor: pointer;
     text-align: left;
   }
   .solution-images {
-    width: 90%;
+    width: 95%;
+    
   }
   .img-1 {
-    width: 30%;
+    width: 33%;
+    height: 20vh;
   }
   .img-3 {
-    width: 24%;
-    height: 30%;
+    width: 29%;
+    height: 16vh;
   }
   .img-2 {
-    width: 39%;
-    height: 20%;
+    width: 32%;
+    height: 16vh;
+  }
+  .solution-images img:nth-child(2) {
+    position: relative;
+    top: -5px;
+  }
+  .solution-images img:nth-child(3) {
+    position: relative;
+    top: -1rem;
   }
   .team-heading {
     font-size: 20px;
@@ -817,8 +828,9 @@ cursor: pointer;
     height: 35vh;
     border-radius: 4px;
   }
-  .card-holder h2 {
+  .card-name {
     font-size: 16px;
+    margin-top: 4px;
   }
   .role {
     font-size: 10px;
