@@ -58,5 +58,13 @@ function closeNav(e) {
 }
 
 
+const list = document.querySelector('.gallery-list')
+const imageWrapper = document.querySelector('.gallery-iamge')
+// .addEventListener('click', openGallery) 
+
+function openGallery() {
+ console.log(list)
+}
+
 
 
