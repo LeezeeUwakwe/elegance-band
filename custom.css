@@ -83,16 +83,17 @@ li {
 .btn-started {
   background-color: #1664a3;
   color: #fff;
+  border: 2px solid #1664a3;
 }
 .btn__contact {
   border: 2px solid #b6afaf;
   color: #303030;
   font-weight: 600;
   /* border: none; */
-  outline: none;
-  font-size: 14px;
-  padding: 13px 33px;
-  border-radius: 5px;
+  /* outline: none; */
+  /* font-size: 14px; */
+  /* padding: 13px 33px; */
+  /* border-radius: 5px; */
 }
 .plant-image {
   width: 9%;
