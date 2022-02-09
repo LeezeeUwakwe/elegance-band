@@ -39,7 +39,6 @@ function wireUpTriggers() {
 }
 
 
-
  const burger = document.querySelector('.hamburger')
  const closebtn = document.querySelector('.close-btn')
  const nav = document.querySelector('.nav-mob')
@@ -58,13 +57,27 @@ function closeNav(e) {
 }
 
 
-const list = document.querySelector('.gallery-list')
-const imageWrapper = document.querySelector('.gallery-iamge')
-// .addEventListener('click', openGallery) 
 
-function openGallery() {
- console.log(list)
-}
+let tabBtns = document.querySelectorAll('.list-title');
+tabBtns.forEach(function(tabBtn, index){
+  tabBtn.addEventListener('click', function(){
+     let currentTabData = document.querySelector('.gallery-image[data-tab-content="' + this.dataset.tabTrigger + '"]');
+
+      // remove classess
+      document.querySelector('.gallery-image.is-open').classList.remove('is-open');
+      document.querySelector('.list-title.is-active').classList.remove('is-active');
+
+      // add classes
+      currentTabData.classList.add('is-open');
+      this.classList.add('is-active');
+  });
+});
+
+
+
+
+  
+
 
 
 

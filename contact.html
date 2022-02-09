@@ -1,138 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Elegance | Contact Us</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"  />
-  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-  <link rel="stylesheet" href="dist/output.css">
-  <link rel="stylesheet" href="public/style.css">
-  <link rel="stylesheet" href="custom.css">
-
-</head>
-<body>
-  <div class="container">
-    <header class="flex justify-between">
-      <div class="header-wrapper flex justify-between items-center">
-      <div class="logo">
-        <img src="./assets/images/Layer_x0020_1.png" alt="">
-      </div>
-      <div class="hamburger">
-        <img  src="./assets/images/download (5).png" alt="">
-      </div>
-    </div>
-
-
-    <div class="nav">
-      <ul class="desktop-nav hidden md:flex space-x-8">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About us</a></li>
-      <li><a href="products.html">Products & Services</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="contact.html" class="btn-primary btn-contact">Contact Us</a></li>
-    </ul>
-   </div>
- 
-    </header>
-  </div>
-
-  <div class="nav-mob hidden relative">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elegance | Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <link rel="stylesheet" href="public/style.css" />
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+  <body>
     <div class="container">
-     <ul class="flex">
-       <li><a href="index.html">Home</a></li>
-       <li><a href="about.html">About us</a></li>
-       <li><a href="products.html">Products & Services</a></li>
-       <li><a href="gallery.html">Gallery</a></li>
-        <div class="contactMob-wrapper">
-       <li><a href="contact.html" class="btn-primary btn-contact contact-mob">Contact Us</a></li>
-     </div>
-     </ul>
+      <header class="flex justify-between">
+        <div class="header-wrapper flex justify-between items-center">
+          <div class="logo">
+            <img src="./assets/images/Layer_x0020_1.png" alt="" />
+          </div>
+          <div class="hamburger">
+            <img src="./assets/images/download (5).png" alt="" />
+          </div>
+        </div>
+        <div class="nav">
+          <ul class="desktop-nav hidden md:flex space-x-8">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="products.html">Products & Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li>
+              <a href="contact.html" class="btn-primary btn-contact"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </header>
     </div>
-     <div class="close-btn">
-       <img class="" src="./assets/images/close.png" alt="">
-     </div>
-   </div>
-
-  <section class="relative z-10">
-    <div class="container">
-      <img class="ellipse-contact" src="./assets/images/Ellipse 11.png" alt="">
-      <div class="contactInfo-wrapper flex justify-between">
-        <div class="contact-info">
-          <h2 class="contact-title font-semibold">Contact Info</h2>
-          <div class="contact-heading mt-5">
-            <h2 class="heading-one font-semibold">Head Office</h2>
-            <p class="head-paragraph pt-4 font-medium">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et nsetetur m erat</p>
+    <div class="nav-mob hidden relative">
+      <div class="container">
+        <ul class="flex">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="products.html">Products & Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <div class="contactMob-wrapper">
+            <li>
+              <a href="contact.html" class="btn-primary btn-contact contact-mob"
+                >Contact Us</a
+              >
+            </li>
           </div>
-          <div class="mt-7">
-            <h2 class="heading-two font-semibold">Email</h2>
-            <p class="pt-4 text-sm font-medium"> Eleganceinpired@gmail.com</p>
-          </div>
-          <div class="mt-7">
-            <h2 class="heading-three font-semibold">Phone</h2>
-            <p class="pt-4 text-sm font-medium">+234 (0) 802 554 5555</p>
-            <p class="pt-4 text-sm font-medium">+234 (0) 70ELEGANCE</p>
-          </div>
-        </div>
-
-        <div class="message">
-          <h2 class="message-title font-semibold">Send Us a Message</h2>
-          <div class="form-wrapper">
-          <form class="form-input">
-              <input type="text" name="fullname" id="fullname" placeholder="Fullname">
-              <input type="number" name="number" id="number" placeholder="Phone number">
-              <input type="email" name="email" id="email" placeholder="Email address">
-              <textarea class="contact-message focus:outline-none form-textarea mt-4 block border h-44 px-3 py-2 text-xs"
-              rows="3"
-              placeholder="Message"></textarea>
-          </form>
-          <div class="submit-wrapper">
-          <a href="#" class="btn-primary btn-contact" >Submit</a>
-          </div>
-        </div>
-        </div>
-        <img class="ellipse-message" src="./assets/images/Ellipse 11.png" alt="">
+        </ul>
+      </div>
+      <div class="close-btn">
+        <img class="" src="./assets/images/close.png" alt="" />
       </div>
     </div>
-  </section>
-  <footer class="">
-    <div class="container">
-      <div class="flex justify-between">
-      <div class="footer-contents">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About us</a></li>
-        <li><a href="products.html">Products & Services</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html" class="">Contact Us</a></li>
-      </div>
+    <section class="relative z-10">
+      <div class="container">
+        <img
+          class="ellipse-contact"
+          src="./assets/images/Ellipse 11.png"
+          alt=""
+        />
+        <div class="contactInfo-wrapper flex justify-between">
+          <div class="contact-info">
+            <h2 class="contact-title font-semibold">Contact Info</h2>
+            <div class="contact-heading mt-5">
+              <h2 class="heading-one font-semibold">Head Office</h2>
+              <p class="head-paragraph pt-4 font-medium">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod tempor invidunt ut labore et nsetetur m erat
+              </p>
+            </div>
+            <div class="mt-7">
+              <h2 class="heading-two font-semibold">Email</h2>
+              <p class="pt-4 text-sm font-medium">Eleganceinpired@gmail.com</p>
+            </div>
+            <div class="mt-7">
+              <h2 class="heading-three font-semibold">Phone</h2>
+              <p class="pt-4 text-sm font-medium">+234 (0) 802 554 5555</p>
+              <p class="pt-4 text-sm font-medium">+234 (0) 70ELEGANCE</p>
+            </div>
+          </div>
 
-      <div class="media-wrapper">
-        <img class="footer-logo" src="./assets/images/Layer_x0020_1.png" alt="">
-        <div class="media-icons flex justify-between">
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-youtube"></i>
-          <i class="fab fa-linkedin-in"></i>
+          <div class="message">
+            <h2 class="message-title font-semibold">Send Us a Message</h2>
+            <div class="form-wrapper">
+              <form class="form-input">
+                <input
+                  type="text"
+                  name="fullname"
+                  id="fullname"
+                  placeholder="Fullname"
+                />
+                <input
+                  type="number"
+                  name="number"
+                  id="number"
+                  placeholder="Phone number"
+                />
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email address"
+                />
+                <textarea
+                  class="contact-message focus:outline-none form-textarea mt-4 block border h-44 px-3 py-2 text-xs"
+                  rows="3"
+                  placeholder="Message"
+                ></textarea>
+              </form>
+              <div class="submit-wrapper">
+                <a href="#" class="btn-primary btn-contact">Submit</a>
+              </div>
+            </div>
+          </div>
+          <img
+            class="ellipse-message"
+            src="./assets/images/Ellipse 11.png"
+            alt=""
+          />
         </div>
       </div>
-    </div>
-    </div>
-
-    <p class="copyright text-center mt-8 py-6 font-semibold">&#169;	2021 Elegance inspired. All rights reserved</p>
-  </footer>
- 
-
-
-
-
-
-
-
-  <script src="app.js"></script>
-</body>
+    </section>
+    <footer class="">
+      <div class="container-footer">
+        <div class="flex justify-between">
+          <div class="footer-contents">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="products.html">Products & Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html" class="">Contact Us</a></li>
+          </div>
+          <div class="media-wrapper">
+            <img
+              class="footer-logo"
+              src="./assets/images/Layer_x0020_1.png"
+              alt=""
+            />
+            <div class="media-icons flex justify-between">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-youtube"></i>
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="copyright text-center mt-8 py-6 font-semibold">
+        &#169; 2021 Elegance inspired. All rights reserved
+      </p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
 </html>
