@@ -58,6 +58,8 @@ function closeNav(e) {
 
 
 
+
+
 let tabBtns = document.querySelectorAll('.list-title');
 tabBtns.forEach(function(tabBtn, index){
   tabBtn.addEventListener('click', function(){
